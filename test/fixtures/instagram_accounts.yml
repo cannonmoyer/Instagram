@@ -1,0 +1,13 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  username: MyString
+  auth_token: MyText
+  ig_id: MyText
+  profile_picture: MyText
+
+two:
+  username: MyString
+  auth_token: MyText
+  ig_id: MyText
+  profile_picture: MyText

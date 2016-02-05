@@ -1,0 +1,20 @@
+<h2>Welcome! You've Successfully Authenticated The App With Instagram</h2>
+
+
+
+
+
+
+<table class="table table-bordered">
+	<tr>
+		<th>Picture</th><th>Username</th> <th>ID</th> 
+	<% @array.each do |f| %>
+		<tr>
+			<td><img src="<%= f['profile_picture'] %>" alt="Mountain View" style="width:304px;height:228px;"></td>
+			<td><%= f['Username'] %></td>
+			<td><%= f['id'] %></td>
+					
+		</tr>
+	<% end %>
+</table>
+

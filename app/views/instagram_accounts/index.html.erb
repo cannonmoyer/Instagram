@@ -1,0 +1,22 @@
+<h1>Instagram Accounts</h1>
+<div class="container-fluid">
+	<div class="row">
+		<div class="col-md-4 col-md-offset-4">
+			<table class="table table-hover">
+				<thead>
+					<th width="10"></th>  
+					<th>Username</th> 
+					<th></th>
+				</thead>
+				</tbody>	
+					<% @instagram_accounts.each do |f| %>
+						<tbody>
+							<td><img src="<%= f.profile_picture %>" class="img-circle" width="50" height="35"></td>
+							<td><%= f.username %></td> 
+							<td><%= link_to "", get_followers_instagram_path(f), class: "glyphicon glyphicon-user" %> </td>
+					<% end %>
+				</tbody>
+			</table>
+		</div>
+	</div>
+</div>

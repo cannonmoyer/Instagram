@@ -1,0 +1,22 @@
+<h1>Instagram Accounts</h1>
+<div class="container-fluid">
+	<div class="row">
+		<div class="col-md-4 col-md-offset-4">
+			<table class="table table-hover">
+				<thead>
+					<th width="10"></th>  
+					<th>Username</th> 
+					<th></th>
+				</thead>
+				</tbody>	
+					<% @ids.each do |f| %>
+						<tbody>
+							
+							<td><%= f.ig_user_id %></td> 
+							
+					<% end %>
+				</tbody>
+			</table>
+		</div>
+	</div>
+</div>

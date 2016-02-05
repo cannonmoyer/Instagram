@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>InstagramWebApp</title>
+  <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+  <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+  <%= csrf_meta_tags %>
+</head>
+<body>
+<nav class="navbar navbar-inverse" >
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <a class="navbar-brand" href=""><font color="#E0F8F7">The Final Touch Security, LLC&nbsp&nbsp&nbsp&nbsp</font></a>
+      </div>
+      <div>
+        <ul class="nav navbar-nav"> 
+          <li></li>     
+        </ul>
+        <ul class="nav navbar-nav navbar-right">
+            <li></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+<%= yield %>
+
+</body>
+</html>
